@@ -4,7 +4,7 @@
   "description": "A bot for ru-oit-busch slack channel that manages the communication of shift coverages.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "nodemon bot.js",
     "test": "mocha --watch ./test ./lib"
   },
   "author": "Tommy Yan",
