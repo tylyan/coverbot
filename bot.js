@@ -145,7 +145,9 @@ rtm.on(RTM_EVENTS.MESSAGE, function(message){
   {
     response = RESPONSES.intro;
     rtm.sendMessage(response, dm.id);
-  } 
+  } else if (/*help*/){
+
+  }
   else/* NONE OF THE ABOVE COMMANDS */
   {
     response = RESPONSES.invalidCommand;
