@@ -1,11 +1,11 @@
 {
   "name": "coverbot",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A bot for ru-oit-busch slack channel that manages the communication of shift coverages.",
   "main": "bot.js",
   "scripts": {
     "start": "nodemon bot.js",
-    "test": "mocha --watch ./test ./lib"
+    "test": "mocha --watch ./test/**_test.js ./lib"
   },
   "author": "Tommy Yan",
   "license": "ISC",

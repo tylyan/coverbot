@@ -8,7 +8,11 @@ RESPONSES = {
   "invalidLocation": "Please specify a valid location.",
   "invalidShiftId": "Please specify a valid shift ID!",
   "noShiftsPosted": "You don't have any shifts up for coverage!",
-  "invalidCommand": "Sorry I couldn't quite understand you! Please try again."
+  "invalidCommand": "Sorry I couldn't quite understand you! Please try again.",
+  "intro": "Hi I'm coverbot!  You can send direct messages to me regarding shift coverages.\n"
+/*          +"Need a shift covered? Send 'need [location] [day of week] [date] [start] - [end]'\n"
+          +"Make sure the statement is separated by spaces or I won't be able to understand it.\n"
+          +"Want to know what shifts are up for coverage? Send 'cover'."*/
 };
 
 module.exports.RESPONSES = RESPONSES;

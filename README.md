@@ -1,10 +1,23 @@
 # coverbot
-v0.0.1
+v0.1.0
 by Tommy Yan
 
 coverbot is a Slack bot for the RU-OIT-Busch team focused on managing the communication of shift coverages between consultants.
 
 **Note:** coverbot is used for means of communication ONLY.  All consultants must STILL manually log in to ZED portal to post/cover shifts.
+
+# Change log
+
+v0.1.0 Bot functionality stable, can parse commands and manipulate coverage data
+v0.0.2 Bot able to parse commands and echo appropriate data
+v0.0.1 Set up bot to receive incoming messages
+
+# Future Features
+
+- Sort coverage list by time
+- Help menu and explanations
+- Greeting newly connected users so a Direct Message is opened
+- Store coverage data on a database 
 
 # Usage
 
@@ -25,6 +38,10 @@ The following are commands understood by coverbot and his appropriate actions:
   - "bump"
     - coverbot will remind other users via the coverages channel about the requesting user's open shifts
       - if user has no open shifts, then coverbot will reply with "You have no shifts up for coverages at this time!"
+  - "hi" or "hello"
+    - coverbot will greet the user with a quick introduction
+  - "help {command}"
+    - coverbot will explain a command in more detail and supply an example
 
 # Examples
 
